@@ -1,0 +1,32 @@
+<!DOCTYPE>
+<html>
+    <body>
+        <form action="" method="post">
+            
+            <!-- Note that the name attribute is mandatory for all form fields -->
+            <label>
+                <span>Name</span>
+                <input name="Name" placeholder="Your Name here">
+            </label>
+            
+            <label>
+                <span>Email</span>
+                <input name="Email" type="email" placeholder="YourMailHere@mail.com" required>
+            </label>
+            
+			<label>
+                <span>Phone</span>			
+				<input type="tel"  name="Phone" placeholder="Enter your phone number:" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+       		<label>
+                <span>Message</span>
+                <input name="Message" type="text" placeholder="Enter your message here..." required>
+            </label>
+			
+			<label>
+                <input name="newsletter" type="checkbox">
+                <span>Surely you want to send this message?</span>
+            </label>
+            <button type="submit">Send!</button>
+        </form>
+    </body>
+</html>
